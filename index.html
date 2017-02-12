@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="test">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.slider.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+
+    		$('#ex1').slider({
+				formatter: function(value) {
+					return 'Bedrooms count: ' + value;
+				}
+			});
+			$('#ex2').slider({
+				formatter: function(value) {
+					return 'Bathrooms count: ' + value;
+				}
+			});
+    	});
+    </script>
+    <style type="text/css">
+    	.slider.slider-horizontal {
+    		width: 100%;
+    	}
+    	/*#ex1Slider .slider-track {
+    		background-image: url(images/slidebar_bg.jpg);
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    background-size: cover;
+    	}
+    	#ex1Slider .slider-selection {
+			background: #BABABA;
+		}
+		#ex1Slider .slider-handle .min-slider-handle .round {
+			background-image: url(images/slidebar_button.jpg);
+		    background-repeat: no-repeat;
+		    background-position: center center;
+		    background-size: cover;
+		}*/
+    </style>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#"><span class="mythicalfontcolor">mythical</span> <span class="maidsfontcolor">maids<span></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">BOOK IN 60 SECONDS</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<content>
+	<div class="container-fluid book_schedule">
+		<div class="container">
+			<div class="row">
+				<div class="book_schedule_title1">
+					Book Mythical Maids Best Home Cleaners
+				</div>
+				<div class="book_schedule_title2">
+					Select the number of bedrooms and bathrooms, see your price, and schedule maid service in 60 secondes!
+				</div>
+				<div class="schedule_main" align="center">
+					<div class="schedule_box">
+						<div class="schedule_box_label">Bedrooms</div>
+						<div class="schedule_box_slider_box">
+							<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+						</div>
+						<div class="schedule_box_label">Bathrooms</div>
+						<div class="schedule_box_slider_box">
+							<input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="1"/>
+						</div>
+						<div class="row schedule_button_box">
+							<div class="col-lg-3 col-md-6 col-xs-12">
+								<button type="button" class="btn btn-primary">1 Time Service</button>
+							</div>
+							<div class="col-lg-3 col-md-6 col-xs-12">
+								<button type="button" class="btn btn-primary">Every Week</button>
+							</div>
+							<div class="col-lg-3 col-md-6 col-xs-12">
+								<button type="button" class="btn btn-primary btn-disabled">Every 2 Weeks<br>(most popular)</button>
+							</div>
+							<div class="col-lg-3 col-md-6 col-xs-12">
+								<button type="button" class="btn btn-primary">Every 4 Weeks</button>
+							</div>
+						</div>
+						<div class="row schedule_button_box">
+							<div class="col-lg-12 col-md-12 col-xs-12">
+								<button type="button" class="btn btn-danger">SCHEDULE YOUR APPOINTMENT</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="media_main" align="center">
+					<div class="media_box">
+						<div class="media_box_title"><span class="mythicalfontcolor">mythical</span> <span class="maidsfontcolor">maids<span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid howblock">
+		<div class="container">
+			<div class="starblock">
+				<div class="starblock_sanfrancisco"><img class="sanfrancisco_img" src="images/sanfrancisco.png"></div>
+				<div class="starblock_star">200+<br>five-star reviews<br><img src="images/5star.png"></div>
+				<div class="starblock_bridge"><img src="images/bridge.png"></div>
+				<div class="starblock_examiner"><img class="examiner_img" src="images/examiner.png"></div>
+			</div>
+
+			<div class="howblock_main">
+				<div class="howblock_main_title">How Mythical Maids Work</div>
+
+				<div class="howblock_item howblock_item_book">
+					<img class="howblock_item_img" src="images/scroll.png">
+					<div class="howblock_item_title1">BOOK</div>
+					<div class="howblock_item_title2">Select the date and time<br>you'd like your professional<br>to show up.</div>
+				</div>
+				<div class="howblock_item howblock_item_weclean">
+					<img class="howblock_item_img" src="images/maid.png">
+					<div class="howblock_item_title1">WE CLEAN</div>
+					<div class="howblock_item_title2">A certified cleaner comes over<br>and cleans your place.</div>
+				</div>
+				<div class="howblock_item howblock_item_youchill">
+					<img class="howblock_item_img" src="images/chillmartiini.png">
+					<div class="howblock_item_title1">YOU CHILL</div>
+					<div class="howblock_item_title2">Sit back and relax. Enjoy your<br>sparkling home!</div>
+				</div>
+
+				<div class="howblock_item howblock_item_choose">
+					<img class="howblock_item_img" src="images/cabinetdragon.png">
+					<div class="howblock_item_title1">CHOOSE<br>SPECIFICATIONS</div>
+					<div class="howblock_item_title2">Choose the specifica-<br>tions of your cleaning and<br>add any extras you may need.</div>
+				</div>
+				<div class="howblock_item howblock_item_howoften">
+					<img class="howblock_item_img" src="images/calendar.png">
+					<div class="howblock_item_title1">HOW OFTEN</div>
+					<div class="howblock_item_title2">Whether you need us one time<br>or every week, select how<br>often you'd like your Mythical<br>Maids cleaning.</div>
+				</div>
+				<div class="howblock_item howblock_item_payment">
+					<img class="howblock_item_img" src="images/owl.png">
+					<div class="howblock_item_title1">PAYMENT</div>
+					<div class="howblock_item_title2">Enter your payment info<br>in our secure online portal<br>and you'll receive an instant<br>booking confirmation<br>for your cleaning.</div>
+				</div>
+
+				<div class="howblock_main_button">
+					<button class="btn btn-howwork">FREE QUOTE NOW</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<div class="howblock_main_bottombar"></div>
+
+	<div class="container-fluid whyblock">
+		<div class="whyblock_main_title1">Why Mythical Maids?</div>
+		<div class="whyblock_main_title2">Finding a great cleaning company can be<br>difficult. We're here to make it simple.</div>
+		<div class="crocodile_word">Our favorite reason?<br>We actually <b>care</b><br>about all of our clients.</div>
+		<div class="whyblock_list">
+			<div class="whyblock_item"><img src="images/why_icon1.png">We only work with experienced cleaners</div>
+			<div class="whyblock_item"><img src="images/why_icon2.png">Secure online payments</div>
+			<div class="whyblock_item"><img src="images/why_icon3.png">No Contracts or Hidden Fees</div>
+			<div class="whyblock_item"><img src="images/why_icon4.png">100% Satisfaction Guarantee</div>
+			<div class="whyblock_item"><img src="images/why_icon5.png">Superior customer service 7 days a week!</div>
+		</div>
+	</div>
+
+	<div class="container-fluid whatblock">
+		<div class="container">
+			<div class="whatblock_main_title1">What We Offer?</div>
+			<div class="whatblock_list">
+				<div class="whatblock_item"><img src="images/what_icon1.png">Green Products</div>
+				<div class="whatblock_item"><img src="images/what_icon2.png">Fully Equipped Teams</div>
+				<div class="whatblock_item"><img src="images/what_icon3.png">Safe and Insured</div>
+				<div class="whatblock_item"><img src="images/what_icon4.png">Flexible Availability</div>
+				<div class="whatblock_item"><img src="images/what_icon5.png">Up to 20% discount for regular services</div>
+			</div>
+			<div class="whatblock_main_title2">
+				<div class="whatblock_testimonials">Testimonials</div>
+			</div>
+
+			<div class="row" style="text-align: center;">
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="mythicalmaids_manager">
+						<img src="images/photo1.png">
+						<div class="mythicalmaids_manager_name1">Billy B.</div>
+						<div class="mythicalmaids_manager_name2">San Jose, Ca</div>
+						<div class="mythicalmaids_manager_content">I'm constantly on the go so I<br>never really have time the clean<br>my own place. Mythical Maids has<br>exceeded all expectations and<br>made everything as simple as<br>possible.</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="mythicalmaids_manager">
+						<img src="images/photo1.png">
+						<div class="mythicalmaids_manager_name1">Billy B.</div>
+						<div class="mythicalmaids_manager_name2">San Jose, Ca</div>
+						<div class="mythicalmaids_manager_content">I'm constantly on the go so I<br>never really have time the clean<br>my own place. Mythical Maids has<br>exceeded all expectations and<br>made everything as simple as<br>possible.</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12">
+					<div class="mythicalmaids_manager">
+						<img src="images/photo1.png">
+						<div class="mythicalmaids_manager_name1">Billy B.</div>
+						<div class="mythicalmaids_manager_name2">San Jose, Ca</div>
+						<div class="mythicalmaids_manager_content">I'm constantly on the go so I<br>never really have time the clean<br>my own place. Mythical Maids has<br>exceeded all expectations and<br>made everything as simple as<br>possible.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid anyblock">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-xs-12"><img class="iphone" src="images/iphone.png"></div>
+				<div class="col-lg-6 col-md-6 col-xs-12 ">
+					<div class="anyblock_title">
+						<div class="anyblock_title1">Book Anywhere,<br>ANYTIME.</div>
+						<div class="anyblock_title2">We're mobile friendly, easy to BOOK.</div>
+						<div class="anyblock_button">
+							<button class="btn btn-primary">COMMING SOON!</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</content>
+<footer>
+	<div class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-xs-12">
+					<div class="footer_list">
+						<div class="footer_list_title">mythical maids</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-xs-6">SCHEDULE SERVICE</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">LOGIN</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-lg-4 col-md-4 col-xs-6">BOOK NOW</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">CONTACT US</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-lg-4 col-md-4 col-xs-6">ABOUT US</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">BUY GIFT CARDS</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-lg-4 col-md-4 col-xs-6">HOUSE CLEANING</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">SERVICE AREA</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-lg-4 col-md-4 col-xs-6">CHARITY</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">MAID SERVICE</div>
+							<div class="clearfix visible-xs"></div>
+							<div class="col-lg-4 col-md-4 col-xs-6">JOIN THE CREW</div>
+							<div class="col-lg-4 col-md-4 col-xs-6">HELP PAGE</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12">
+					<div class="footer_connect">
+						<div class="footer_connect_title">CONNCET WITH US</div>
+						<div class="footer_connect_email">
+							<input class="email" type="" name="">
+							<button class="btn btn-primary btn-signup">SIGN UP</button>
+						</div>
+						<div class="footer_social">
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
