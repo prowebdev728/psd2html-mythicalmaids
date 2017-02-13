@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Semibold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Semibold.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNova-Bold.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaBoldIt';
+  src: url('../fonts/ProximaNova-BoldItalic.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url('../fonts/ProximaNova-Semibold.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNova-Regular.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaRegularIt';
+  src: url('../fonts/ProximaNova-RegularItalic.otf');
+  font-weight: 100;
+}

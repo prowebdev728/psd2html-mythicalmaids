@@ -1,0 +1,1051 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Semibold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Semibold.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNova-Bold.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaBoldIt';
+  src: url('../fonts/ProximaNova-BoldItalic.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaSemiBold';
+  src: url('../fonts/ProximaNova-Semibold.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNova-Regular.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'ProximaNovaRegularIt';
+  src: url('../fonts/ProximaNova-RegularItalic.otf');
+  font-weight: 100;
+}
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-weight: 300;
+  font-family: "ProximaNovaBold";
+  font-size: 12px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1;
+  font-weight: 300;
+}
+.mythicalfontcolor {
+  color: #0072bc;
+}
+.maidsfontcolor {
+  color: #1fc96c;
+}
+.btn {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 100;
+}
+.btn:hover {
+  background-color: #286090;
+}
+.btn-primary {
+  background-color: #0072bc;
+}
+.btn-primary:focus {
+  background-color: #286090;
+}
+.btn-disabled {
+  background-color: #0072bc;
+  padding: 2.5px;
+}
+.btn-danger {
+  background-color: #df53ac;
+  font-size: 18px;
+  padding: 15px;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #d63c9e;
+}
+.slider-handle.min-slider-handle.round {
+  border-radius: 0;
+  width: 37px;
+  height: 16px;
+  background-image: url(../images/slidebar_button.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.slider-track {
+  border-right: 1px solid #88afb9;
+  border-left: 1px solid #88afb9;
+  border-radius: 0px;
+  background-color: #bfe6f0!important;
+  height: 7px!important;
+  background-image: url(../images/slidebar_img.png);
+  background-repeat: repeat;
+}
+.slider-track div {
+  background-color: #c6edf8!important;
+}
+.slider-track .slider-track-low,
+.slider-track .slider-selection,
+.slider-track .slider-track-high {
+  background-image: url(../images/slidebar_img.png);
+  background-repeat: repeat;
+}
+.slider-track .slider-track .slider-track-low,
+.slider-track .slider-track .slider-selection,
+.slider-track .slider-track .slider-track-high {
+  height: 0px;
+}
+.navbar {
+  border: 0px solid #ddd;
+}
+.navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar .container .navbar-header span {
+  font-size: 31px;
+}
+.navbar .container #myNavbar {
+  font-size: 17px;
+}
+.navbar .container #myNavbar .navbar-nav li a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  color: #303030;
+}
+.navbar .container #myNavbar .navbar-nav li a:hover {
+  border: 1px solid #0072bc;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.navbar .container #myNavbar .navbar-nav li a:focus {
+  border: 1px solid #fff;
+  background-color: #79e3ff;
+  border-radius: 6px;
+}
+.book_schedule {
+  min-height: 718px;
+  padding-bottom: 20px;
+  background-color: #f1fcf0;
+  background-image: url(../images/book1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.book_schedule .book_schedule_title1 {
+  color: #0072bc;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 40px;
+}
+.book_schedule .book_schedule_title2 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "ProximaNovaSemibold";
+  margin-top: 6px;
+}
+.book_schedule .schedule_main {
+  margin-top: 30px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.book_schedule .schedule_main .schedule_box {
+  width: 530px;
+  padding: 23px 10px 12px 18px;
+  background-color: #adeeff;
+  border-radius: 6px;
+  display: inline-block;
+}
+.book_schedule .schedule_main .schedule_box .schedule_box_label {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.book_schedule .schedule_main .schedule_box .schedule_box_slider_box {
+  text-align: left;
+  margin-bottom: 18px;
+}
+.book_schedule .schedule_main .schedule_box .schedule_button_box {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0px 8px 0px;
+}
+.book_schedule .schedule_main .schedule_box .schedule_button_box div {
+  padding: 3px;
+}
+.book_schedule .media_main {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.book_schedule .media_main .media_box {
+  width: 530px;
+  height: 298px;
+  background-image: url(../images/mediabox.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  font-size: 40px;
+  text-align: center;
+}
+.book_schedule .media_main .media_box .media_box_title {
+  margin-top: 100px;
+  display: inline-block;
+}
+.book_schedule2 {
+  min-height: 780px;
+  padding-bottom: 20px;
+  background-color: #f1fcf0;
+  background-image: url(../images/book2.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.book_schedule2 .book_schedule_title1 {
+  color: #0072bc;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 40px;
+}
+.book_schedule2 .book_schedule_title2 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "ProximaNovaSemibold";
+  margin-top: 6px;
+}
+.book_schedule2 .schedule_main2 {
+  margin-top: 30px;
+  padding: 0px;
+  display: table;
+  margin-left: 130px;
+  vertical-align: top;
+}
+.book_schedule2 .schedule_main2 .schedule_box {
+  width: 530px;
+  padding: 23px 10px 12px 18px;
+  background-color: #adeeff;
+  border-radius: 6px;
+  display: inline-block;
+}
+.book_schedule2 .schedule_main2 .schedule_box .schedule_box_label {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.book_schedule2 .schedule_main2 .schedule_box .schedule_box_slider_box {
+  text-align: left;
+  margin-bottom: 18px;
+}
+.book_schedule2 .schedule_main2 .schedule_box .schedule_button_box {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0px 8px 0px;
+}
+.book_schedule2 .schedule_main2 .schedule_box .schedule_button_box div {
+  padding: 3px;
+}
+.book_schedule2 .media_main {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+.book_schedule2 .media_main .media_box {
+  width: 530px;
+  height: 298px;
+  background-image: url(../images/mediabox.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  font-size: 40px;
+  text-align: center;
+}
+.book_schedule2 .media_main .media_box .media_box_title {
+  margin-top: 100px;
+  display: inline-block;
+}
+.howblock {
+  width: 100%;
+  height: auto;
+  background-color: #f1fcf0;
+}
+.howblock .starblock {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+.howblock .starblock .starblock_sanfrancisco {
+  display: inline-block;
+  margin: 40px 80px 0px 30px;
+  vertical-align: top;
+}
+.howblock .starblock .starblock_star {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #626262;
+  margin: 15px 80px 0px 0px;
+  vertical-align: top;
+}
+.howblock .starblock .starblock_star img {
+  margin-top: 20px;
+}
+.howblock .starblock .starblock_bridge {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #626262!important;
+  margin: 15px 80px 0px 0px;
+  vertical-align: top;
+}
+.howblock .starblock .starblock_bridge img {
+  margin-top: 9px;
+}
+.howblock .starblock .starblock_examiner {
+  display: inline-block;
+  margin: 25px 0px 0px 0px;
+  vertical-align: top;
+}
+.howblock .howblock_main {
+  width: 100%;
+}
+.howblock .howblock_main .howblock_main_title {
+  width: 100%;
+  display: inline-block;
+  margin-top: 70px;
+  font-size: 44px;
+  line-height: 44px;
+  color: #0072bc;
+}
+.howblock .howblock_main .howblock_item {
+  width: 280px;
+  margin: 55px 18px 0px 18px;
+  display: inline-block;
+  vertical-align: top;
+  border: 0px solid #ddd;
+}
+.howblock .howblock_main .howblock_item .howblock_item_title1 {
+  margin: 25px 0px 10px 0px;
+  color: #f11539;
+  font-size: 20px;
+  line-height: 25px;
+}
+.howblock .howblock_main .howblock_item .howblock_item_title2 {
+  color: #505050;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: ProximaNovaRegular;
+}
+.howblock .howblock_main .howblock_item_book {
+  margin-left: 40px;
+}
+.howblock .howblock_main .howblock_item_youchill {
+  margin-right: 40px;
+}
+.howblock .howblock_main .howblock_item_choose {
+  margin-left: 40px;
+}
+.howblock .howblock_main .howblock_item_howoften .howblock_item_title1 {
+  margin: 25px 0px 25px 0px;
+}
+.howblock .howblock_main .howblock_item_payment {
+  margin-right: 40px;
+}
+.howblock .howblock_main .howblock_item_payment .howblock_item_title1 {
+  margin: 25px 0px 25px 0px;
+}
+.howblock .howblock_main .howblock_main_button {
+  width: 100%;
+  margin: 55px 0px 100px 0px;
+  display: inline-block;
+}
+.howblock .howblock_main .howblock_main_button .btn-howwork {
+  width: 58%;
+  height: 62px;
+  background-color: #25a9df;
+  font-size: 28px;
+  line-height: 28px;
+  font-family: ProximaNovaSemiBold;
+  color: #fff;
+  text-shadow: 2px 2px #186d8f;
+}
+.howblock_main_bottombar {
+  width: 100%;
+  height: 31px;
+  padding: 0px;
+  margin: 0px;
+  background-image: url(../images/howwork_bottombar.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.whyblock {
+  width: 100%;
+  height: 770px;
+  background-color: #f1f0fc;
+  background-image: url(../images/crocodile_bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.whyblock .whyblock_main_title1 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 56px;
+  font-size: 56px;
+  line-height: 56px;
+  color: #3daee1;
+}
+.whyblock .whyblock_main_title2 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 22px;
+  line-height: 22px;
+  color: #353535;
+}
+.whyblock .crocodile_word {
+  width: 360px;
+  height: 210px;
+  padding-top: 70px;
+  display: inline-block;
+  background-image: url(../images/crocodile_word.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-size: 22px;
+  line-height: 22px;
+  color: #3daee1;
+  font-family: ProximaNovaRegularIt;
+  margin-right: 150px;
+  vertical-align: top;
+}
+.whyblock .whyblock_list {
+  display: inline-block;
+  background-color: #fff;
+  margin: 100px 0px 0px 150px;
+  padding: 40px 25px 20px 25px;
+  text-align: left;
+  vertical-align: top;
+}
+.whyblock .whyblock_list .whyblock_item {
+  display: table;
+  font-size: 18px;
+  font-family: ProximaNovaSemiBold;
+  margin-bottom: 20px;
+}
+.whyblock .whyblock_list .whyblock_item img {
+  margin-right: 10px;
+}
+.whatblock {
+  width: 100%;
+  min-height: 1270px;
+  padding-bottom: 20px;
+  background-color: #f1f0fc;
+  background-image: url(../images/what_bg1.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+.whatblock .container {
+  text-align: left;
+}
+.whatblock .container .whatblock_main_title1 {
+  width: 100%;
+  display: inline-block;
+  margin-top: 65px;
+  font-size: 56px;
+  line-height: 56px;
+  color: #1b2c53;
+  text-align: center;
+}
+.whatblock .container .whatblock_list {
+  display: inline-block;
+  background-color: #c0f2ff;
+  margin: 50px 0px 0px 160px;
+  padding: 25px 45px 10px 45px;
+  border-radius: 9px;
+  text-align: left;
+  vertical-align: top;
+}
+.whatblock .container .whatblock_list .whatblock_item {
+  display: table;
+  font-size: 18px;
+  font-family: ProximaNovaSemiBold;
+  margin-bottom: 16px;
+}
+.whatblock .container .whatblock_list .whatblock_item img {
+  margin-right: 10px;
+}
+.whatblock .container .whatblock_main_title2 {
+  text-align: center;
+  margin-top: 200px;
+}
+.whatblock .container .whatblock_main_title2 .whatblock_testimonials {
+  width: 592px;
+  height: 77px;
+  display: inline-block;
+  font-size: 56px;
+  color: #1b2c53;
+  background-image: url(../images/testimonials_title.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.whatblock .container .mythicalmaids_manager {
+  width: 323px;
+  height: 406px;
+  margin-top: 35px;
+  display: inline-block;
+  text-align: center;
+  background-image: url(../images/photo_word_bg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+.whatblock .container .mythicalmaids_manager .mythicalmaids_manager_name1 {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1b2c53;
+}
+.whatblock .container .mythicalmaids_manager .mythicalmaids_manager_name2 {
+  font-size: 16px;
+  line-height: 16px;
+  color: #1b2c53;
+}
+.whatblock .container .mythicalmaids_manager .mythicalmaids_manager_content {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383532;
+  font-family: ProximaNovaRegularIt;
+}
+.anyblock {
+  min-height: 683px;
+  background-color: #d14360;
+  padding-top: 85px;
+  padding-bottom: 30px;
+}
+.anyblock .container {
+  padding-left: 100px;
+  padding-right: 160px;
+}
+.anyblock .anyblock_title {
+  margin-top: 160px;
+  display: inline-block;
+  text-align: left;
+  color: #fff;
+}
+.anyblock .anyblock_title .anyblock_title1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+.anyblock .anyblock_title .anyblock_title2 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: ProximaNovaRegularIt;
+}
+.anyblock .anyblock_title .anyblock_button {
+  margin-top: 15px;
+}
+.anyblock .anyblock_title .anyblock_button button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-family: ProximaNovaBoldIt;
+  background-color: #fff;
+  color: #d14360;
+}
+.footer {
+  min-height: 512px;
+  background-color: #575757;
+  padding-bottom: 20px;
+}
+.footer .container {
+  padding-left: 60px;
+}
+.footer .footer_list {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: ProximaNovaSemiBold;
+  color: #dbdbdb;
+}
+.footer .footer_list .footer_list_title {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: ProximaNovaBold;
+  margin-bottom: 80px;
+  color: #fafafa;
+}
+.footer .footer_list .row div {
+  margin-bottom: 20px;
+}
+.footer .footer_connect {
+  margin-top: 50px;
+  text-align: left;
+  color: #666;
+}
+.footer .footer_connect .footer_connect_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: ProximaNovaSemiBold;
+  margin-bottom: 40px;
+  color: #fafafa;
+}
+.footer .footer_connect .email {
+  width: 320px;
+  height: 57px;
+  font-size: 30px;
+  margin-right: 25px;
+}
+.footer .footer_connect .btn-signup {
+  width: 165px;
+  height: 57px;
+  background-color: #1fc96c;
+  vertical-align: top;
+  border-radius: 0px;
+  font-family: ProximaNovaSemiBold;
+  font-size: 18px;
+}
+.footer .footer_connect .footer_social {
+  display: inline-block;
+  height: auto;
+  margin-top: 50px;
+}
+.footer .footer_connect .footer_social a {
+  padding: 0 25px;
+  color: #fff;
+  font-size: 44px;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1350px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar .container {
+    padding: 58px 230px 7px 198px;
+  }
+  .btn-howwork {
+    width: 68%!important;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .navbar .container {
+    padding: 60px 60px 4px 60px;
+  }
+  .schedule_main2 {
+    display: inline-block !important;
+    margin-left: 0px!important;
+    margin-top: 215px!important;
+  }
+  .media_main {
+    margin-left: 0px!important;
+  }
+  .howblock_main .howblock_item_youchill {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_choose {
+    margin-left: 18px!important;
+  }
+  .howblock_main .howblock_item_howoften {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_payment {
+    margin-left: 18px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .btn-howwork {
+    width: 68%!important;
+  }
+  .whyblock {
+    height: 600px!important;
+  }
+  .whyblock .crocodile_word {
+    display: none!important;
+  }
+  .whyblock .whyblock_list {
+    margin: 50px 0px 0px;
+  }
+  .whatblock .mythicalmaids_manager {
+    width: 300px!important;
+    height: 380px!important;
+  }
+  .footer .footer_connect .email {
+    width: 240px!important;
+  }
+  .footer .footer_connect .btn-signup {
+    width: 125px!important;
+  }
+}
+@media (max-width: 991px) and (min-width: 600px) {
+  .schedule_main2 {
+    display: inline-block !important;
+    margin-left: 0px!important;
+    margin-top: 150px!important;
+  }
+  .media_main {
+    margin-left: 0px!important;
+  }
+  .howblock_main .howblock_item_youchill {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_choose {
+    margin-left: 18px!important;
+  }
+  .howblock_main .howblock_item_howoften {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_payment {
+    margin-left: 18px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .btn-howwork {
+    width: 68%!important;
+  }
+  .whyblock {
+    height: 600px!important;
+  }
+  .whyblock .crocodile_word {
+    display: none!important;
+  }
+  .whyblock .whyblock_list {
+    margin: 50px 0px 0px;
+  }
+  .anyblock {
+    padding-top: 45px!important;
+  }
+  .anyblock .anyblock_title {
+    text-align: center!important;
+    margin-top: 45px!important;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .container {
+    padding: 20px 21px 0px 21px;
+  }
+  .schedule_main2 {
+    display: inline-block !important;
+    margin-left: 0px!important;
+  }
+  .media_main {
+    margin-left: 0px!important;
+  }
+  .howblock_main .howblock_item_youchill {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_choose {
+    margin-left: 18px!important;
+  }
+  .howblock_main .howblock_item_howoften {
+    margin-left: 40px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .howblock_item_payment {
+    margin-left: 18px!important;
+    margin-right: 18px!important;
+  }
+  .howblock_main .btn-howwork {
+    width: 68%!important;
+  }
+  .whyblock {
+    height: 600px!important;
+  }
+  .whyblock .crocodile_word {
+    display: none!important;
+  }
+  .whyblock .whyblock_list {
+    margin: 50px 0px 0px;
+  }
+  .whatblock .whatblock_testimonials {
+    width: 475px!important;
+  }
+  .anyblock {
+    padding-top: 45px!important;
+  }
+  .anyblock .anyblock_title {
+    text-align: center!important;
+    margin-top: 45px!important;
+  }
+  .footer .container {
+    padding-left: 100px!important;
+  }
+}
+@media (max-width: 600px) {
+  .navbar .container {
+    padding: 20px 21px 0px 21px;
+  }
+  .book_schedule_title1 {
+    margin-top: 30px!important;
+    font-size: 36px!important;
+    line-height: 32px!important;
+  }
+  .schedule_main .schedule_box {
+    width: 300px!important;
+    padding: 9px!important;
+  }
+  .schedule_main .schedule_box .btn-danger {
+    font-size: 14px;
+  }
+  .schedule_main2 {
+    margin-left: 0px!important;
+  }
+  .schedule_main2 .schedule_box {
+    width: 300px!important;
+    padding: 9px!important;
+    display: inline-block;
+  }
+  .schedule_main2 .schedule_box .btn-danger {
+    font-size: 14px;
+  }
+  .media_main {
+    margin-left: 0px!important;
+  }
+  .media_main .media_box {
+    width: 300px!important;
+    height: 160px!important;
+  }
+  .media_main .media_box .media_box_title {
+    margin-top: 50px!important;
+    font-size: 30px;
+  }
+  .howblock .starblock .starblock_sanfrancisco {
+    margin: 20px 0px 20px 0px!important;
+  }
+  .howblock .starblock .starblock_sanfrancisco .sanfrancisco_img {
+    width: 260px;
+  }
+  .howblock .starblock .starblock_star {
+    margin: 20px!important;
+  }
+  .howblock .starblock .starblock_bridge {
+    margin: 20px!important;
+  }
+  .howblock .starblock .starblock_examiner {
+    margin: 20px!important;
+  }
+  .howblock .starblock .starblock_examiner .examiner_img {
+    width: 200px;
+  }
+  .howblock .howblock_main .howblock_main_title {
+    margin-top: 40px!important;
+    font-size: 32px!important;
+    line-height: 30px!important;
+  }
+  .howblock .howblock_main .howblock_item {
+    margin: 15px 0px!important;
+  }
+  .howblock .howblock_main .howblock_item .howblock_item_img {
+    width: 230px;
+  }
+  .howblock .howblock_main .howblock_item .howblock_item_title1 {
+    margin: 10px 0px!important;
+  }
+  .howblock .howblock_main .howblock_main_button {
+    margin: 30px 0px!important;
+  }
+  .howblock .howblock_main .howblock_main_button .btn-howwork {
+    width: 80%!important;
+    font-size: 20px!important;
+  }
+  .whyblock {
+    height: auto!important;
+    padding-bottom: 30px!important;
+  }
+  .whyblock .whyblock_main_title1 {
+    margin-top: 20px!important;
+    font-size: 36px!important;
+    line-height: 36px!important;
+  }
+  .whyblock .crocodile_word {
+    display: none!important;
+  }
+  .whyblock .whyblock_list {
+    margin: 30px 0px 0px 0px!important;
+    padding: 9px!important;
+  }
+  .whyblock .whyblock_list .whyblock_item {
+    font-size: 12px!important;
+    margin-bottom: 9px!important;
+  }
+  .whyblock .whyblock_list .whyblock_item img {
+    width: 20px;
+  }
+  .whatblock .container {
+    text-align: center!important;
+  }
+  .whatblock .whatblock_main_title1 {
+    margin-top: 20px!important;
+    font-size: 36px!important;
+  }
+  .whatblock .whatblock_list {
+    margin: 30px 0px 0px 0px!important;
+    padding: 9px!important;
+  }
+  .whatblock .whatblock_list .whatblock_item {
+    font-size: 12px!important;
+    margin-bottom: 9px!important;
+  }
+  .whatblock .whatblock_list .whatblock_item img {
+    width: 20px;
+  }
+  .whatblock .whatblock_main_title2 {
+    margin-top: 40px!important;
+  }
+  .whatblock .whatblock_main_title2 .whatblock_testimonials {
+    width: 280px!important;
+    height: 40px!important;
+    font-size: 30px!important;
+  }
+  .whatblock .mythicalmaids_manager {
+    width: 260px!important;
+    height: 320px!important;
+  }
+  .whatblock .mythicalmaids_manager img {
+    width: 150px!important;
+  }
+  .whatblock .mythicalmaids_manager .mythicalmaids_manager_name1 {
+    margin-top: 0px!important;
+  }
+  .whatblock .mythicalmaids_manager .mythicalmaids_manager_name2 {
+    margin-top: 0px!important;
+  }
+  .whatblock .mythicalmaids_manager .mythicalmaids_manager_content {
+    margin-top: 9px!important;
+    font-size: 16px!important;
+    line-height: 16px!important;
+  }
+  .anyblock {
+    padding-top: 35px!important;
+  }
+  .anyblock .container {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .anyblock .iphone {
+    width: 200px!important;
+  }
+  .anyblock .anyblock_title {
+    text-align: center!important;
+    margin-top: 25px!important;
+  }
+  .anyblock .anyblock_title .anyblock_title1 {
+    font-size: 32px!important;
+    line-height: 36px!important;
+  }
+  .anyblock .anyblock_title .anyblock_title2 {
+    font-size: 14px!important;
+    line-height: 14px!important;
+  }
+  .footer .container {
+    padding-left: 70px!important;
+  }
+  .footer .footer_list .footer_list_title {
+    font-size: 36px!important;
+    margin-bottom: 20px!important;
+  }
+  .footer .footer_list .row div {
+    margin-bottom: 16px!important;
+  }
+  .footer .footer_connect .footer_connect_title {
+    font-size: 26px!important;
+    margin-bottom: 10px!important;
+  }
+  .footer .footer_connect .email {
+    width: 250px!important;
+    height: 40px!important;
+  }
+  .footer .footer_connect .btn-signup {
+    margin-top: 20px;
+    width: 250px!important;
+    height: 40px!important;
+  }
+  .footer .footer_social {
+    margin-top: 30px!important;
+  }
+  .footer .footer_social a {
+    padding: 0 15px!important;
+    color: #fff;
+    font-size: 36px!important;
+  }
+}
+@media (max-width: 375px) {
+  .footer .container {
+    padding-left: 25px!important;
+  }
+}
